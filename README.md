@@ -18,6 +18,7 @@ O projeto foi desenvolvido como parte de um curso da Alura e tem como objetivo a
 
 ## 📁 Estrutura do Projeto
 
+```
 pipeline-py-dados/
 ├── data_raw/                    # Dados brutos (entrada)
 │   ├── dados_empresaA.json
@@ -31,4 +32,46 @@ pipeline-py-dados/
 │   └── main.py                 # Script principal de execução
 │
 ├── README.md                   # Documentação do projeto
-└── .gitignore                  # (opcional) Arquivos a ignorar no Git
+└── .gitignore                  # Arquivos a ignorar no Git
+```
+
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio/scripts
+```
+
+2. Certifique-se de você tem o Python 3 baixado
+   
+3. Execute o Script principal:
+
+```
+python main.py
+``` 
+
+4. O resultado será salvo na pasta data_processed/ com o nome dados_consolidados.csv.
+
+---
+
+## 🔧 Requisitos
+
+Python 3.7+
+
+Nenhuma biblioteca externa é necessária (somente csv e json da biblioteca padrão).
+
+## 🧪 Exemplo de Uso
+
+Suponha que os dados da empresa A venham em JSON e os da empresa B em CSV, com diferentes nomes de colunas. O script renomeia, junta e salva tudo padronizado. Ideal para aplicações reais de pré-processamento de dados.
+
+## ✍️ Autora
+
+**Nathália Gomes**  
+[LinkedIn](https://www.linkedin.com/in/nathaliagomes)
+
+Projeto criado como parte dos estudos em Engenharia de Dados.
