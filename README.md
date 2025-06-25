@@ -72,6 +72,6 @@ Suponha que os dados da empresa A venham em JSON e os da empresa B em CSV, com d
 ## ✍️ Autora
 
 **Nathália Gomes**  
-[LinkedIn](https://www.linkedin.com/in/nathaliagomes)
+🔗 [Acesse meu LinkedIn](https://www.linkedin.com/in/nathaliagomes)
 
 Projeto criado como parte dos estudos em Engenharia de Dados.
